@@ -1,0 +1,19 @@
+name: ttt
+description: ''
+version: 0.0.1-SNAPSHOT
+author: demo5@simpledatalabs.com
+workflows:
+  workflows/sss:
+    name: sss
+    description: sss
+    author: demo5@simpledatalabs.com
+    mode: batch
+    language: scala
+    createdAt: '2022-03-18 00:25:55'
+    datasets:
+      inputs: []
+      outputs: []
+    dependencies: {}
+datasets: {}
+schedules: {}
+libraries: []
