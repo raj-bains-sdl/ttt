@@ -51,8 +51,8 @@
       "id" : "BpUDopnZCXwUyxryTWlJU",
       "component" : "Source",
       "metadata" : {
-        "label" : "Source_0",
-        "slug" : "Source_0",
+        "label" : "Customer",
+        "slug" : "Customer",
         "x" : 322,
         "y" : 198,
         "language" : "scala",
@@ -68,16 +68,18 @@
         } ],
         "selectedInputFields" : [ ]
       },
-      "properties" : { }
+      "properties" : {
+        "datasetId" : "678/datasets/customer"
+      }
     },
     "5C-zIakCHDvd2CFIhVypt" : {
       "id" : "5C-zIakCHDvd2CFIhVypt",
       "component" : "Target",
       "metadata" : {
-        "label" : "Target_1",
-        "slug" : "Target_1",
+        "label" : "OutCustomer",
+        "slug" : "OutCustomer",
         "x" : 539,
-        "y" : 194,
+        "y" : 193,
         "language" : "scala",
         "phase" : 0,
         "cache" : false,
@@ -91,7 +93,9 @@
         "outputs" : [ ],
         "selectedInputFields" : [ ]
       },
-      "properties" : { }
+      "properties" : {
+        "datasetId" : "678/datasets/out_customer"
+      }
     }
   },
   "ports" : {

@@ -11,8 +11,8 @@ import graph._
 object Main {
 
   def apply(spark: SparkSession): Unit = {
-    val df_Source_0 = Source_0(spark)
-    Target_1(spark, df_Source_0)
+    val df_Customer = Customer(spark)
+    OutCustomer(spark, df_Customer)
   }
 
   def main(args: Array[String]): Unit = {
